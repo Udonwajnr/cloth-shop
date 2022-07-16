@@ -1,0 +1,22 @@
+@media only screen and (max-width: 800px) {
+    .logo{
+        font-size: 15px;
+    }
+
+    .exploreAndAppeal{
+        font-size: 12px;
+    }
+  .navbar .cart{
+        font-size: 12px;
+        padding: 0;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        padding: 4px;
+    }
+    .basket{
+        width: 13px !important;
+    }
+}

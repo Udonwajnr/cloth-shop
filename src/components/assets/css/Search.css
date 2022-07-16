@@ -1,0 +1,7 @@
+.search-input{
+    position: relative;
+}
+
+.search-input input::placeholder{
+    color: lightgray;   
+}

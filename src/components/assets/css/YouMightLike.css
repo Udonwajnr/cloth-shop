@@ -1,0 +1,19 @@
+/* you might like pus product css */
+.you-might-like .category{
+    display: none;
+}
+
+.you-might-like .product-body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.you-might-like .product-info{
+    width: 100%;
+}
+
+.you-might-like .product-price{
+    margin-top: 5px !important;
+    font-weight: normal;
+}

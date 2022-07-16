@@ -1,0 +1,58 @@
+.color-label{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.label{
+    position:relative;
+    /* width: 100%; */
+}
+
+.radio{
+    /* position: absolute;
+    top: 15px;
+    left:1px ;
+    bottom: 0;
+    width: 32px;
+    height: 35px;
+    cursor: pointer;
+    accent-color: black; */
+}
+
+.label{
+    position: relative;
+}
+.color-container input[type="radio"] {
+    display: none;
+}
+
+.color-container input[type="radio"]:checked+ .color-label{
+ border: 2px solid #000;
+}
+
+.sizes-container input[type="radio"] {
+    display: none;
+}
+
+.sizes-container label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 4px 11px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sizes-container input[type="radio"]:checked+label {
+    background-color: #000;
+    color: #fff;
+}
+
+select {
+    background-color: transparent;
+    border: 1px solid;
+}

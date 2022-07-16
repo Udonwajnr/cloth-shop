@@ -1,0 +1,60 @@
+.other-products .title{
+    display: none;
+}
+.other-products .product-body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.other-products .product-info{
+    width: 100%;
+}
+.other-products .product-price{
+    font-size: .7rem;
+    font-weight: normal;
+}
+
+.other-products .category{
+    font-size: .8rem;
+    color: #000;
+}
+
+.other-products .good img{
+    max-width: 100px;
+}
+
+select {
+    background-color: transparent;
+    border: 1px solid;
+}
+
+
+.selected-product label { 
+    display: flex;
+}
+
+/* mixture of product and related product .good from product and label from details related product */
+.selected-product input[type="radio"]:checked+label .good {
+    color: #fff !important;
+    border: #000 2px solid;
+}
+
+/* mixture ending */
+
+
+.selected-product {
+    position: relative;
+}
+
+.selected-product input {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    display: none;
+}
+.other-products .product-img{
+    border-radius:0px ;
+    border: none;
+}

@@ -1,0 +1,11 @@
+.line::before{
+    content: '';
+    height: 30px;
+    width: 1px;
+    color: blue;
+}
+.line{
+    width: 1px;
+    height: 30px;
+    background-color: #fff;
+}

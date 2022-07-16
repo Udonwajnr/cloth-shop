@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1139px) {
+    .cart{
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .cart-container{
+        width: 100%;
+        /* background: #000; */
+    }
+        .cart-container .cart-price span{
+            font-size: 17px;
+        }
+        .g{
+            width: 100%;
+        }
+
+}
+
+@media only screen and (max-width: 630px) {
+    .cart-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+         .cart {
+             display: flex;
+             flex-direction: column;
+             /* width: 100%; */
+         }
+    
+
+}
